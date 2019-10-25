@@ -40,6 +40,7 @@ Feel free to join us on our [Gitter channel](https://gitter.im/beginner-projects
 - [Base Jumper](#base-jumper)
 - [Hangman Game](#hangman-game)
 - [Menu Calculator](#menu-calculator)
+- [Seat Reservation](#seat-reservation)
 - [Dice Rolling Simulator](#dice-rolling-simulator)
 - [Count and Fix Green Eggs and Ham](#count-and-fix-green-eggs-and-ham)
 - [What's My Number?](#whats-my-number)
@@ -206,6 +207,17 @@ To quickly take orders, your program should allow the user to type in a string o
   - If you decide to, print out the items and prices every time before the user types in an order.
   - Once the user has entered an order, print out how many of each item have been ordered, as well as the total price.
   - If an item was not ordered at all, then it should not show up.
+
+### Seat Reservation
+If you've ever been in a concert, you are aware that you buy tickets to be able to reserve a seat inside a stadium. The seat you will be on will have a specific number or code that would enable you to know exactly how far or how close you are to the stage. 
+
+Note: if you are kind of uncomfortable with lists, here's a [reference](https://www.w3schools.com/python/python_lists.asp) to get you started. 
+
+- Create a simple seat reservation program
+- Create a list that would store dashes '-' as a symbol that the seat is still available to take.
+- Define a function that would loop over the list and print out the seats horizontally or in a 3 x 3 position. Refer to [this](https://image.shutterstock.com/image-vector/stadium-chairs-vector-icon-arenabench-260nw-1056480272.jpg) image for reference.
+- Define a second function that would check if the seats are occupied. This should check if the list contains "X" in each element, which is the symbol that we will use if the seat is taken that you will store in a variable. If the variable is equal to 9 (the total number of seats), return True (and break from the loop), and False if not.
+- Create a loop that would have to (1) ask the user for the number of seat he would want to reserve, (2) print out the chairs, (3) check if all the seats are occupied and (4) ask the user now if he/she wants to reserve again.
 
 ### Dice Rolling Simulator
 By using the random module, Python can do things like pseudo-random number generation.
@@ -482,6 +494,7 @@ do so), like Python and Java.
 - [Ankit-Gupta](https://github.com/i-ankit25/begineer-project-solutions)
 - [vishaldhull09](https://github.com/vishaldhull09/beginner-project-solution)
 - [007vedant](https://github.com/007vedant/beginner-project-solutions)
+- [marsmccrann04](https://github.com/marsmccrann04/beginner-project-solutions)
 
 ## Contributing
 Contributing to this repository in any way is encouraged.
